@@ -1,0 +1,4 @@
+name: NoShulkerInEnderChest
+version: '${project.version}'
+main: me.milkycoding.noshulkerinenderchest.NoShulkerInEnderChest
+api-version: '1.16'
