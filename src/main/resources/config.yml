@@ -1,0 +1,28 @@
+# NoShulkerInEnderChest - Конфигурация
+# Автор: MilkyCoding
+
+# Сообщения плагина
+messages:
+  prefix: "&8[&bNoShulker&8] &r"
+  no-permission: "&cУ вас нет прав для использования этой команды!"
+  reload-success: "&aКонфигурация успешно перезагружена!"
+  shulker-blocked: "&cВы не можете поместить шалкер в эндер сундук!"
+  help-header: "&8&m----------&r &bNoShulkerInEnderChest &8&m----------"
+  help-reload: "&b/noshulker reload &8- &7Перезагрузить конфигурацию"
+  help-help: "&b/noshulker help &8- &7Показать это сообщение"
+
+# Настройки логирования
+logging:
+  enabled: true
+  log-to-console: true
+  log-to-file: true
+  log-file: "noshulker.log"
+
+# Настройки для разных групп игроков
+groups:
+  default:
+    enabled: true
+    bypass-permission: "noshulker.bypass"
+  vip:
+    enabled: false
+    bypass-permission: "noshulker.bypass.vip" 

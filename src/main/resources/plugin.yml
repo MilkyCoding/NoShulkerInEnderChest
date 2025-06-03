@@ -1,4 +1,19 @@
 name: NoShulkerInEnderChest
-version: '${project.version}'
-main: me.milkycoding.noshulkerinenderchest.NoShulkerInEnderChest
+version: '1.0.0'
+main: me.milkycoding.noshulker.NoShulkerInEnderChest
 api-version: '1.16'
+description: Защита эндер сундуков от шалкеров
+author: MilkyCoding
+
+commands:
+  noshulker:
+    description: Основная команда плагина NoShulkerInEnderChest
+    usage: /noshulker <reload|help>
+
+permissions:
+  noshulker.admin:
+    description: Доступ к административным командам
+    default: op
+  noshulker.bypass:
+    description: Возможность обхода ограничений
+    default: op
